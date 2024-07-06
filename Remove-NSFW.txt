@@ -1,3 +1,9 @@
+[Adblock Plus 2.0]
+! Title: Reddit NSFW Unblocking and Cookie Consent Blocking
+! Description: Removes NSFW blocking on Reddit and blocks common cookie consent scripts
+! Last modified: 2024-07-06
+! Version: 1.0
+
 ! Reddit - Block loader of NSFW modal
 ||www.redditstatic.com/shreddit/*/xpromo-nsfw-blocking-modal*.js$script,domain=reddit.com
 
