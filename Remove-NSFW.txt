@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Reddit NSFW Unblocking and Cookie Consent Blocking
-! Description: Removes NSFW blocking on Reddit and blocks common cookie consent scripts
+! Description: Removes NSFW blocking on Reddit
 ! Last modified: 2024-07-06
 ! Version: 1.0
 
@@ -21,9 +21,3 @@ reddit.com##slot + .prompt
 
 ! Remove blur from elements with style containing "blur"
 reddit.com#$#[style*="blur"] { filter: none !important; }
-
-! Block common cookie consent scripts
-||cookie-consent.com^$script
-||cookie-script.com^$script
-||cookieyes.com^$script
-||secureprivacy.ai^$script
