@@ -8,3 +8,6 @@ reddit.com##.overlay
 reddit.com##shreddit-blurred-container[mode]:has([slot="revealed"]):remove-attr(mode)
 ! Reddit - Remove blur, backdrop...
 reddit.com##.blurred:style(filter: unset !important; background: unset !important; pointer-events: unset !important; display: unset !important;)
+||reddit.com^$elemhide(xpromo-nsfw-blocking-modal)
+||reddit.com^$elemhide(slot+.prompt)
+||reddit.com^$style(filter:none!important;,/[style*="blur"]/)
