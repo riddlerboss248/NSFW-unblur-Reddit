@@ -1,4 +1,4 @@
-! Reddit - Block loader of nsfw modal
+! Reddit - Block loader of NSFW modal
 ||www.redditstatic.com/shreddit/*/xpromo-nsfw-blocking-modal*.js$script,domain=reddit.com
 
 ! Reddit - Hide prompt in single post, backdrop overlay
@@ -9,9 +9,15 @@ reddit.com##.overlay
 ! Reddit - Remove blur, backdrop...
 reddit.com#$#.blurred { filter: none !important; background: none !important; pointer-events: auto !important; display: initial !important; }
 
-! Hide nsfw blocking modal and prompt
+! Hide NSFW blocking modal and prompt
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##slot + .prompt
 
 ! Remove blur from elements with style containing "blur"
 reddit.com#$#[style*="blur"] { filter: none !important; }
+
+! Block common cookie consent scripts
+||cookie-consent.com^$script
+||cookie-script.com^$script
+||cookieyes.com^$script
+||secureprivacy.ai^$script
